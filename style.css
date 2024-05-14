@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-box {
+    height: 35rem;
+    width: 60rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+navbar {
+    border: 1px solid #3B5997;
+    border-top: 3px solid #3B5997;
+    border-bottom: 3px solid #3B5997;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15%;
+    background-color: #3B5997;
+}
+
+img {
+    height: 100%;
+    width: 35%;
+}
+
+.the-facebook {
+    height: 100%;
+    width: 50%;
+    text-align: start;
+}
+
+#the-facebook {
+    height: auto;
+    width: auto;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(100, 100, 255);
+}
+
+.navbar-anchors {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.navbar-anchors a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid #3B5997;
+    height: auto;
+    width: auto;
+}
+
+.top {
+    border: 3px solid white;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 0.3rem;
+}
+
+.login-box {
+    border: 2px dashed #3B5997;
+    height: auto;
+    width: 20%;
+    text-align: end;
+    font-size: 1rem;
+    padding: 0.5rem 0.2rem 1.3rem 0.2rem;
+}
+
+input {
+    height: auto;
+    width: 100%;
+    text-align: end;
+    font-size: 1rem;
+    background-color: #D8DEEB;
+    color: black;
+}
+
+.btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#btn-1 {
+    height: auto;
+    width: auto;
+    margin-top: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    font-weight: bold;
+    background-color: #5188DE;
+    color: white;
+}
+
+.welcome-box {
+    border: 2px solid #3B5997;
+    height: auto;
+    width: 80%;
+}
+
+.welcome-top {
+    height: auto;
+    width: auto;
+    font-weight: bold;
+    padding: 0.2rem;
+    background-color: #3B5997;
+    color: white;
+}
+
+.welcome-body {
+    height: auto;
+    width: auto;
+    padding: 1.5rem;
+}
+
+#welcome-heading {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.welcome-body p, .list {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list {
+    margin-left: 1.5rem;
+}
+
+.btn-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#btn-2 {
+    height: auto;
+    width: auto;
+    padding: 0.2rem 0.5rem;
+    font-weight: bold;
+    background-color: #5188DE;
+    color: white;
+}
+
+.bottom {
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.anchors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: bold;
+}
+
+.anchors a {
+    color: #6288E0;
+}
